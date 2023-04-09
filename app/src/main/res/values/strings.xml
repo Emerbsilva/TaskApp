@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TaskApp</string>
+
+    <!--    Status Task-->
+    <string name="status_task_todo">A Fazer</string>
+    <string name="status_task_doing">Fazendo</string>
+    <string name="status_task_done">Feitas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    generic-->
+    <string name="text_title_warning">Atenção</string>
+    <string name="text_bottom_warning">Entendi</string>
+    <string name="text_message_warning">Informe seu email!</string>
+
+    <!--    login fragment-->
+    <string name="email_empyt">Prencha seu email!</string>
+    <string name="senha_empyt">Prencha sua senha!</string>
+
+    <!--    register fragment-->
+    <string name="email_empyt_register">Prencha um email valido!</string>
+    <string name="senha_empyt_register">Prencha uma senha com no minimo 6 digitos!</string>
+
+    <!--    task form fragment-->
+    <string name="task_empty">Prencha uma descrição de tarefa!</string>
+</resources>
