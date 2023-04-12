@@ -27,8 +27,7 @@
             android:id="@+id/edt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_edit_text"
-            android:padding="16dp"
+            style="@style/EditTextTheme"
             android:layout_marginTop="4dp"
             android:inputType="textEmailAddress"
             android:hint="Digite seu e-mail"/>
@@ -44,8 +43,7 @@
             android:id="@+id/edt_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_edit_text"
-            android:padding="16dp"
+            style="@style/EditTextTheme"
             android:layout_marginTop="4dp"
             android:inputType="textPassword"
             android:hint="Digite sua Senha"/>
@@ -55,9 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@drawable/bg_btn"
-            app:backgroundTint="@null"
-            android:textColor="@color/color_default"
+            style="@style/ButtonTheme"
             android:textStyle="bold"
             android:text="Login"/>
 

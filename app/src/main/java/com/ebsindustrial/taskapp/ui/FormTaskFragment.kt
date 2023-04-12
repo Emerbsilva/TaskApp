@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentFormTaskBinding
-import com.ebsindustrial.taskapp.util.initToolbar
-import com.ebsindustrial.taskapp.util.showBottomSheet
+import com.ebsindustrial.taskapp.ui.util.initToolbar
+import com.ebsindustrial.taskapp.ui.util.showBottomSheet
 
 class FormTaskFragment : Fragment() {
 
@@ -46,7 +46,7 @@ class FormTaskFragment : Fragment() {
         if (description.isNotEmpty()){
             Toast.makeText(requireContext(), "Tudo certo!", Toast.LENGTH_SHORT).show()
         }else{
-            showBottomSheet(message = R.string.task_empty)
+            showBottomSheet(message = getString(R.string.task_empty))
             //Toast.makeText(requireContext(), "Prencha uma descrição de tarefa!", Toast.LENGTH_SHORT).show()
         }
     }

@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentRegisterBinding
-import com.ebsindustrial.taskapp.util.initToolbar
-import com.ebsindustrial.taskapp.util.showBottomSheet
+import com.ebsindustrial.taskapp.ui.util.initToolbar
+import com.ebsindustrial.taskapp.ui.util.showBottomSheet
 
 class RegisterFragment : Fragment() {
 
@@ -48,11 +48,11 @@ class RegisterFragment : Fragment() {
             if (senha.isNotEmpty()){
                 Toast.makeText(requireContext(), "Tudo certo", Toast.LENGTH_SHORT).show()
             }else{
-                showBottomSheet(message = R.string.senha_empyt_register)
+                showBottomSheet(message = getString(R.string.senha_empyt_register))
                 //Toast.makeText(requireContext(), "Prencha uma senha com no minimo 6 digitos!", Toast.LENGTH_SHORT).show()
             }
         }else{
-            showBottomSheet(message = R.string.email_empyt_register)
+            showBottomSheet(message = getString(R.string.email_empyt_register))
             //Toast.makeText(requireContext(), "Prencha um email valido!", Toast.LENGTH_SHORT).show()
         }
     }

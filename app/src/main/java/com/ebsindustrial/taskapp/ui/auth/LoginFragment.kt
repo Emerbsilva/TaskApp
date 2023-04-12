@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentLoginBinding
-import com.ebsindustrial.taskapp.util.showBottomSheet
+import com.ebsindustrial.taskapp.ui.util.showBottomSheet
 
 class LoginFragment : Fragment() {
 
@@ -54,11 +54,11 @@ class LoginFragment : Fragment() {
                 findNavController().navigate(R.id.action_global_homeFragment)
                 //Toast.makeText(requireContext(), "Tudo certo", Toast.LENGTH_SHORT).show()
             }else{
-                showBottomSheet(message = R.string.senha_empyt)
+                showBottomSheet(message = getString(R.string.senha_empyt))
                 // Toast.makeText(requireContext(), "Prencha sua senha!", Toast.LENGTH_SHORT).show()
             }
         }else{
-            showBottomSheet(message = R.string.email_empyt)
+            showBottomSheet(message = getString(R.string.email_empyt))
             // Toast.makeText(requireContext(), "Prencha seu email!", Toast.LENGTH_SHORT).show()
         }
     }
