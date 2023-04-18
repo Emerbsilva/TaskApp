@@ -19,13 +19,12 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:navigationIcon="@drawable/ic_back"
-                >
+                app:navigationIcon="@drawable/ic_back">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nova tarefa"
+                    android:text="@string/text_titulo_tarefa"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/white"
                     />
@@ -46,7 +45,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Descrição"
+                android:text="@string/text_descricao_tarefa"
                 android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -56,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:hint="Criar nova tela de login do app"
+                android:hint="@string/text_descricao_tarefa_hint"
                 android:inputType="text"
                 style="@style/EditTextTheme"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +66,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Status"
+                android:text="@string/text_status_tarefa"
                 android:textColor="@color/white"
                 android:layout_marginTop="16dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="A Fazer"
+                    android:text="@string/status_task_todo"
                     android:checked="true"
                     android:buttonTint="@color/white"
                     android:textColor="@color/white" />
@@ -98,7 +97,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Fazendo"
+                    android:text="@string/status_task_doing"
                     android:buttonTint="@color/white"
                     android:textColor="@color/white" />
 
@@ -107,7 +106,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Feitas"
+                    android:text="@string/status_task_done"
                     android:buttonTint="@color/white"
                     android:textColor="@color/white" />
 
@@ -118,7 +117,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/ButtonTheme"
-                android:text="Salvar"
+                android:text="@string/text_bt_tarefa"
                 android:textAllCaps="false"
                 android:textStyle="bold"
                 android:layout_marginTop="16dp"

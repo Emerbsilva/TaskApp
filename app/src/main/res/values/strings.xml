@@ -11,16 +11,36 @@
     <!--    generic-->
     <string name="text_title_warning">Atenção</string>
     <string name="text_bottom_warning">Entendi</string>
-    <string name="text_message_warning">Informe seu email!</string>
+    <string name="text_message_warning">Informe seu email</string>
+    <string name="email_text">E-mail</string>
+    <string name="email_text_hint">Digite seu e-mail</string>
+    <string name="senha_text">Senha</string>
+    <string name="senha_text_hint">Digite sua Senha</string>
+
 
     <!--    login fragment-->
-    <string name="email_empyt">Prencha seu email!</string>
-    <string name="senha_empyt">Prencha sua senha!</string>
+    <string name="email_empyt">Prencha seu email</string>
+    <string name="senha_empyt">Prencha sua senha</string>
+    <string name="text_bt_login">Login</string>
+    <string name="text_bt_registro">Criar Conta</string>
+    <string name="text_bt_recuperar">Recuperar Conta</string>
 
     <!--    register fragment-->
-    <string name="email_empyt_register">Prencha um email valido!</string>
-    <string name="senha_empyt_register">Prencha uma senha com no minimo 6 digitos!</string>
+    <string name="email_empyt_register">Prencha um email valido</string>
+    <string name="senha_empyt_register">Prencha uma senha com no minimo 6 digitos</string>
+    <string name="text_titulo_registro">Criar conta</string>
+    <string name="text_bt_register">Criar conta</string>
 
     <!--    task form fragment-->
-    <string name="task_empty">Prencha uma descrição de tarefa!</string>
+    <string name="task_empty">Prencha uma descrição de tarefa</string>
+    <string name="text_titulo_tarefa">Nova tarefa</string>
+    <string name="text_descricao_tarefa">Descrição</string>
+    <string name="text_status_tarefa">Status</string>
+    <string name="text_descricao_tarefa_hint">Criar nova tela de login do app</string>
+    <string name="text_bt_tarefa">Salvar</string>
+
+    <!--    recovery fragment-->
+    <string name="text_bt_recover">Enviar</string>
+    <string name="text_titulo_recover">Recuperar conta</string>
+    <string name="text_informe">Informe seu e-mail de cadastro para receber \num link para alteração da senha.</string>
 </resources>
