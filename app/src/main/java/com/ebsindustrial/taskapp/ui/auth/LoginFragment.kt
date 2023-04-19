@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentLoginBinding
-import com.ebsindustrial.taskapp.ui.util.showBottomSheet
+import com.ebsindustrial.taskapp.util.showBottomSheet
 
 class LoginFragment : Fragment() {
 

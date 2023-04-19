@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentRecoverAccountBinding
-import com.ebsindustrial.taskapp.ui.util.initToolbar
-import com.ebsindustrial.taskapp.ui.util.showBottomSheet
+import com.ebsindustrial.taskapp.util.initToolbar
+import com.ebsindustrial.taskapp.util.showBottomSheet
 
 class RecoverAccountFragment : Fragment() {
 

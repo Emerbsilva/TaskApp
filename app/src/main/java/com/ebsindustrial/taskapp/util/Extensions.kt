@@ -1,4 +1,4 @@
-package com.ebsindustrial.taskapp.ui.util
+package com.ebsindustrial.taskapp.util
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
