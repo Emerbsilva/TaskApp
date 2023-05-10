@@ -11,4 +11,6 @@
     <color name="color_default">#03b6fc</color>
     <color name="color_delete">#ff0000</color>
     <color name="color_details">#00ff00</color>
+    <color name="color_status_todo">#ff841A</color>
+    <color name="color_status_done">#00ff00</color>
 </resources>
