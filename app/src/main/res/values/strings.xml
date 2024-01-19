@@ -3,8 +3,12 @@
     <!-- Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <!--  -->
+    <!-- Text -->
     <string name="email">E-mail</string>
+    <string name="descricao">Descrição</string>
+    <string name="status">Status</string>
+    <string name="salvar">Salvar</string>
+    <string name="edtDescricao">Criar nova tela de login</string>
     <string name="DigiteEmail">Digite seu e-mail</string>
     <string name="Senha">Senha</string>
     <string name="DigiteSenha">Digite sua senha</string>
@@ -16,4 +20,9 @@
     <string name="login">Login</string>
     <string name="register">Criar Conta</string>
     <string name="recover">Enviar</string>
+
+    <!--  Status Task -->
+    <string name="status_task_todo">A Fazer</string>
+    <string name="status_task_doing">Fazendo</string>
+    <string name="status_task_done">Feitas</string>
 </resources>
