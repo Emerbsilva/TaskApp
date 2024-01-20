@@ -5,9 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.ebsindustrial.taskapp.R
+import android.widget.Toast
 import com.ebsindustrial.taskapp.databinding.FragmentRecoverAccountBinding
-import com.ebsindustrial.taskapp.databinding.FragmentRegisterBinding
+import com.ebsindustrial.taskapp.util.initToolbar
 
 class recoverAccountFragment : Fragment() {
 
@@ -20,6 +20,29 @@ class recoverAccountFragment : Fragment() {
     ): View {
         _binding = FragmentRecoverAccountBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        initToolbar(binding.toolbar)
+        initListener()
+    }
+
+    private fun initListener(){
+        binding.btnRecover.setOnClickListener {
+            validateData()
+        }
+    }
+    //
+    private fun validateData() {
+        val email = binding.edtEmail.text.toString().trim()
+
+        if (email.isNotEmpty()) {
+            Toast.makeText(requireContext(), "Tudo Certo", Toast.LENGTH_SHORT).show()
+        }else{
+            Toast.makeText(requireContext(), "Preencha seu e-mail.", Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onDestroyView() {
