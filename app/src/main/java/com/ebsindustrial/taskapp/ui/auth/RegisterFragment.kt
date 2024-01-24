@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentRegisterBinding
 import com.ebsindustrial.taskapp.util.initToolbar
+import com.ebsindustrial.taskapp.util.showBottomSheet
 
 class RegisterFragment : Fragment() {
 
@@ -45,10 +46,10 @@ class RegisterFragment : Fragment() {
             if (password.isNotEmpty()) {
                 Toast.makeText(requireContext(), "Tudo Certo", Toast.LENGTH_SHORT).show()
             }else{
-                Toast.makeText(requireContext(), "Preencha uma senha", Toast.LENGTH_SHORT).show()
+                showBottomSheet(message = R.string.password_empty_register_fragment)
             }
         }else{
-            Toast.makeText(requireContext(), "Preencha um e-mail válido.", Toast.LENGTH_SHORT).show()
+            showBottomSheet(message = R.string.email_empty_register_fragment)
         }
     }
 

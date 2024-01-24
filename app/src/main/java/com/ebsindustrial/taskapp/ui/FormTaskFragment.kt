@@ -6,8 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentFormTaskBinding
 import com.ebsindustrial.taskapp.util.initToolbar
+import com.ebsindustrial.taskapp.util.showBottomSheet
 
 class FormTaskFragment : Fragment() {
 
@@ -42,7 +44,7 @@ class FormTaskFragment : Fragment() {
         if (description.isNotEmpty()) {
             Toast.makeText(requireContext(), "Tudo Certo", Toast.LENGTH_SHORT).show()
         }else{
-            Toast.makeText(requireContext(), "De um titulo para a tarefa.", Toast.LENGTH_SHORT).show()
+            showBottomSheet(message = R.string.description_form_task_fragment)
         }
     }
 
