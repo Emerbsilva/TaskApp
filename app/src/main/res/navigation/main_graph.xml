@@ -46,7 +46,7 @@
     </navigation>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.ebsindustrial.taskapp.ui.auth.HomeFragment"
+        android:name="com.ebsindustrial.taskapp.ui.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action

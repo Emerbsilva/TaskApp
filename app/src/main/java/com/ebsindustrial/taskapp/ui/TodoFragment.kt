@@ -1,4 +1,4 @@
-package com.ebsindustrial.taskapp.ui.auth
+package com.ebsindustrial.taskapp.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

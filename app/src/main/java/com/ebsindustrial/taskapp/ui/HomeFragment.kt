@@ -1,4 +1,4 @@
-package com.ebsindustrial.taskapp.ui.auth
+package com.ebsindustrial.taskapp.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,8 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.ebsindustrial.taskapp.R
 import com.ebsindustrial.taskapp.databinding.FragmentHomeBinding
-import com.ebsindustrial.taskapp.databinding.FragmentLoginBinding
-import com.ebsindustrial.taskapp.databinding.FragmentTodoBinding
 import com.ebsindustrial.taskapp.ui.adapter.ViewPageAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 

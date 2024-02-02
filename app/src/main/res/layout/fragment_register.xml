@@ -29,10 +29,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Criar Conta"
+                    android:text="@string/titulo_criar_conta"
                     android:textColor="@color/white"
-                    android:layout_gravity="center"
-                    />
+                    android:layout_gravity="center"/>
 
             </com.google.android.material.appbar.MaterialToolbar>
 
@@ -59,10 +58,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:background="@drawable/bg_edit_text"
             android:hint="@string/DigiteEmail"
             android:inputType="textEmailAddress"
-            android:padding="16dp" />
+            style="@style/EditTextTheme" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -76,22 +74,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:background="@drawable/bg_edit_text"
             android:hint="@string/DigiteSenha"
             android:inputType="textPassword"
-            android:padding="16dp" />
+            style="@style/EditTextTheme" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@drawable/bg_bt"
             android:text="@string/register"
-            android:textAllCaps="true"
-            android:textColor="@color/color_default"
-            android:textSize="20sp"
-            app:backgroundTint="@null" />
+            style="@style/ButtonTheme"
+            android:textSize="20sp"/>
 
         <ProgressBar
             android:id="@+id/prograssBar"

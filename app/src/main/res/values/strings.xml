@@ -38,4 +38,9 @@
 
     <!--    Form-->
     <string name="description_form_task_fragment">De um titulo para a tarefa.</string>
+
+    <!-- Titulos Telas   -->
+    <string name="titulo_criar_conta">Criar Conta</string>
+    <string name="titulo_recuperar_conta">Recuperar Conta</string>
+    <string name="titulo_nova_tarefa">Nova Tarefa</string>
 </resources>
